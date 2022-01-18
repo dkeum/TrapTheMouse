@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/coverphoto" />
+
+    <TextView
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Play"
+        android:textColor="#000000"
+        android:textSize="64sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="499dp"
+        android:layout_height="120dp"
+        android:text="MOUSE TRAP"
+        android:textColor="#000000"
+        android:textSize="64sp"
+        android:translationX="20dp"
+        android:translationY="40dp" />
+
+
+</RelativeLayout>
